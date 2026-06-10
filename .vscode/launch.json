@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug testprogram",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/testprogram",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "make"
+        }
+    ]
+}
