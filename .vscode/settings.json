@@ -1,2 +1,9 @@
 {
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/home/hp/_Projekte/C/Sample-C-Project-with-VS-Code-Support",
+      "binaryPath": "/home/hp/_Projekte/C/Sample-C-Project-with-VS-Code-Support/testprogram",
+      "binaryArgs": []
+    }
+  ]
 }
