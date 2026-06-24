@@ -16,7 +16,7 @@ DEPS := $(OBJS:.o=.d)
 # Include directories
 INC_DIRS  := $(shell find $(SRC_DIRS) -type d)
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
-CPPFLAGS  ?= $(INC_FLAGS) -MMD -MP
+CFLAGS2   ?= $(INC_FLAGS) -MMD -MP
 
 .PHONY: all clean run vrun reformat
 
@@ -29,7 +29,7 @@ $(TARGET_EXEC): $(OBJS)
 # Compile C files into flattened object files
 $(BUILD_DIR)/%.o: $(SRC_DIRS)/%.c
 	@$(MKDIR_P) $(dir $@)
-	$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) $(CFLAGS2) -c $< -o $@
 
 # Clean build directory + executable
 clean:

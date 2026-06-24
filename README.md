@@ -6,9 +6,13 @@ This is a **sample project** that can serve as a **template** for a **C project*
 
 ----
 
-### Prerequisites:
-- **gcc**  - GNU C compiler
+### Prerequisites (Linux):
+
+- **gcc** - GNU C compiler
+- **gdb** - GNU debugger
 - **make** - GNU make utility to maintain groups of programs
+- **valgrind** - Tool for debugging and profiling programs
+- **clang-format** - Tool to format C code
 - **code** - Visual Studio Code with "C/C++" and "Makefile Tools" extensions
 
 ----
