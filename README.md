@@ -9,7 +9,7 @@ This is a **sample project** that can serve as a **template** for a **C project*
 ### Prerequisites:
 - **gcc**  - GNU C compiler
 - **make** - GNU make utility to maintain groups of programs
-- **code** - Visual Studio Code with C/C++ extension
+- **code** - Visual Studio Code with "C/C++" and "Makefile Tools" extensions
 
 ----
 
